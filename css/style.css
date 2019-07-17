@@ -10,13 +10,14 @@ body{
 	background-color: #FFDEAD;
 	}
 
-section{
-	max-width: 100%;
-	margin-left: 180px;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+	section{
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+	}
 
 section p, section h1{
 max-width: 60%;

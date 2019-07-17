@@ -7,7 +7,7 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
-	background-color: yellow;
+	background-color: #FFDEAD;
 	}
 
 section{
@@ -42,7 +42,7 @@ margin-left: 40px;
 }
 
 .topHeader {
-    background-color: coral;
+    background-color:  	#9AC0CD;
 	color: white; /* more readable on an orange background */
   	padding-top: 50px;
 	padding-bottom: 50px;

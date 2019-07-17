@@ -3,7 +3,13 @@
 	/* This makes the widths of elements more consistent
 		Full details here https://css-tricks.com/box-sizing/ */
 }
-
+.txt{
+		width: 33%;
+}
+.tttt img{
+	width: 50%;
+		float: center;
+}
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;

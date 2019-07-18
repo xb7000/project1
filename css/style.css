@@ -3,13 +3,36 @@
 	/* This makes the widths of elements more consistent
 		Full details here https://css-tricks.com/box-sizing/ */
 }
-.txt{
-		width: 33%;
+
+nav{
+	float: left;
+	top: 0;
+	width: auto;
+	height: auto;
+	background-color: #BBFFFF;
+	margin: 0 auto;
+	position: fixed;
 }
-.tttt img{
-	width: 50%;
-		float: center;
+
+nav a, nav h3{
+	float:left;
+	line-height: 55px;
+	margin: 0 auto;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
 }
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+li{
+	float:left;
+	margin: 0;
+	padding: 0;
+	display:block
+}
+
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
@@ -17,12 +40,11 @@ body{
 	}
 
 	section{
-		max-width: 100%;
+		max-width: 770px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
-
 	}
 
 section p, section h1{
@@ -32,16 +54,7 @@ margin-left: 40px;
 
 
 
-.sidenav a {
-	padding: 15px;
-	text-decoration: none;
-	color: coral;
 
-	font-size: 20px;
-	display: : block;
-	/*line-height: 200%;*/
-
-}
 
 .sidenav a:hover{
 	color: linen;
@@ -72,15 +85,17 @@ margin-left: 40px;
  	background-color: teal;
 	color: linen; /* more readable on an orange background */
  	padding-top: 10px;
-	padding-bottom: 10px;
-	border-radius: 0px 0px 50px 0px
+	padding-bottom: auto;
+	border-radius: 0px 0px 50px 0px;
+	position: fixed;
 
 }
 
 /* Simple grid */
 .g-row{
 	width: 100%;
-	overflow: hidden;
+	float: left;
+	margin: 0 auto;
 }
 
 .g-row img{
@@ -89,9 +104,10 @@ margin-left: 40px;
 }
 
 .g-30{
-	width: 30%;
-	float: left;
-	margin: 20px;
+	margin:60px;
+	width: 38%;
+	float: right;
+
 
 }
 

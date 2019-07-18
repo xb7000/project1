@@ -88,7 +88,6 @@ margin-left: 40px;
  	padding-top: 10px;
 	padding-bottom: auto;
 	border-radius: 0px 0px 50px 0px;
-		margin-left: 2120px;
 	position: fixed;
 
 }
@@ -108,7 +107,7 @@ margin-left: 40px;
 .g-30{
 	margin:60px;
 	width: 38%;
-	float: left;
+	float: right;
 
 
 }

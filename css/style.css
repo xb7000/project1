@@ -6,11 +6,11 @@
 
 nav{
 	float: left;
+		margin: 0 auto;
 	top: 0;
 	width: auto;
 	height: auto;
 	background-color: #BBFFFF;
-	margin: 0 auto;
 	position: fixed;
 }
 
@@ -40,6 +40,7 @@ body{
 	}
 
 	section{
+				margin: 0 auto;
 		max-width: 770px;
 		margin-left: auto;
 		margin-right: auto;
@@ -85,6 +86,7 @@ margin-left: 40px;
 .categoryHeader{
  	background-color: teal;
 	color: linen; /* more readable on an orange background */
+	top:80px;
  	padding-top: 10px;
 	padding-bottom: auto;
 	border-radius: 0px 0px 50px 0px;

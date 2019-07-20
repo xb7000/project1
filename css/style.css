@@ -35,6 +35,7 @@ li{
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-size: 29px
 	font-family: sans-serif;
 	background-color: #FFDEAD;
 	}
@@ -50,47 +51,30 @@ body{
 	}
 
 section p, section h1{
-max-width: 60%;
-margin-left: 40px;
+max-width: 100%;
+margin-left: 10px;
 }
 
 
 
 
 
-.sidenav a:hover{
-	color: linen;
-	background-color: orange;
-}
-
-.topHeader {
-    background-color:  	#9AC0CD;
-	color: white; /* more readable on an orange background */
-  	padding-top: 50px;
-	padding-bottom: 50px;
 
 
-}
-
-.topHeader p, .topHeader h1{
-	max-width: 1000px;
-	margin-left: 180px;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: center;
 
 
-}
+
 
 .categoryHeader{
  	background-color: teal;
 	color: linen; /* more readable on an orange background */
 	top:80px;
  	padding-top: 10px;
+	padding-right: auto;
 	padding-bottom: auto;
 	border-radius: 0px 0px 50px 0px;
 	position: fixed;
+	max-width: 420px
 
 }
 
@@ -112,14 +96,4 @@ margin-left: 40px;
 	float: right;
 
 
-}
-
-
-.show{
-	border: 1px solid blue;
-	padding: 2px;
-}
-
-.padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
 }

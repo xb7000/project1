@@ -10,7 +10,7 @@ nav{
 	top: 0;
 	width: auto;
 	height: auto;
-	background-color: #BBFFFF;
+	background-color:  	#008B8B;
 	position: fixed;
 }
 
@@ -35,9 +35,8 @@ li{
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-size: 29px
 	font-family: sans-serif;
-	background-color: #FFDEAD;
+	background-color:#B0E0E6;
 	}
 
 	section{
@@ -66,7 +65,7 @@ margin-left: 10px;
 
 
 .categoryHeader{
- 	background-color: teal;
+ 	background-color:  	#00BFFF;
 	color: linen; /* more readable on an orange background */
 	top:80px;
  	padding-top: 10px;
